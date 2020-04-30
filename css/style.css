@@ -1,0 +1,167 @@
+@font-face 
+{
+	font-family: PlayfairDisplay;
+	src: url(PlayfairDisplay-Bold.otf);
+}
+body, html 
+{
+    height: 100%;
+}
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+}
+.content 
+{
+    flex: 1 0 auto;
+}
+
+/* Navbar */
+.navbar-toggler
+{
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.nav-item
+{
+	margin-right: 15px;
+}
+.nav-link:hover, .nav-link:focus
+{
+	border-top: 3px solid white;
+	transition: all 0.3s ease-in-out 0s;
+}
+.btn-info:hover 
+{
+    color: #fff !important;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+.navbar-dark .navbar-nav .nav-link 
+{
+    color: white;
+}
+.bg-dark
+{
+	background-color: #222222d6 !important;
+}
+.nav-item
+{
+	margin-right: 5px;
+}
+.active1
+{
+	border-top: 3px solid white;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+/* Footer */
+.footer 
+{
+    background-color: #222222d6;
+    color: white;
+	padding: 6px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+/* Bootgrid */
+.actions, .glyphicon, .infos, .glyphicon-chevron-down
+{
+	cursor: not-allowed !important;
+	display: none !important;
+}
+.pagination .prev, .pagination .next
+{
+display: none;
+}
+.pagination li
+{
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid black;
+background-color: #804040;
+}
+.pagination li a
+{
+color: white !important;
+cursor: pointer;
+}
+.pagination .active
+{
+background-color: white;
+}
+.pagination .active a
+{
+color: black !important;
+}
+.actionBar
+{
+    text-align: left !important;
+    padding-left: 0px;
+}
+.bootgrid-header .search, .bootgrid-footer .search {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+    width: 30% !important;
+}
+
+.home_banner
+{
+height: 100%;
+background-image: url("../image/banner.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.parent
+{
+	width: 100%;
+	display: table;
+}
+.child
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+.main_content button
+{
+	font-family: PlayfairDisplay;
+	font-size: 25px; 
+	font-weight: bolder;
+	text-align: center; 
+	color: black;
+	margin-top: 20%;
+	padding: 20px;
+}
+.txtbox 
+{
+	width: 100%;
+	padding: 11px;
+	border-radius: 5px;
+}
+.error
+{
+	color: indianred;
+	font-weight: bold;
+}
+.test .btn:focus {
+    color: white;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #17a2b8;
+}
+.heading
+{
+color: #804040;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
